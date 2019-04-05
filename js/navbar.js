@@ -20,4 +20,11 @@ $(document).ready(function () {
             navBar.addClass('no-media');
         }
     })
+    // console.log(window.location.href)
+    // $('section').mouseover(function () {
+    //     // console.log(this.attributes.id.value);
+    //     let section = this.attributes.id.value;
+    //     console.log(section)
+    //     // 
+    // })
 });

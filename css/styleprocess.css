@@ -12,8 +12,14 @@ html, body {
   display: none;
 }
 /* Random stuff styling */
-span {
+span.random {
   color:#42a7f4;
+}
+span.here {
+  transition:0.2s;
+}
+span.here:hover {
+  border-bottom:4px solid white;
 }
 .clear {
   clear:none;
@@ -148,7 +154,7 @@ iframe {
     text-decoration: none;
     transition:0.2s;
     padding: 0px 15px 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   #ideaNext a:hover {
@@ -212,7 +218,7 @@ iframe {
       text-decoration: none;
       padding: 0px 15px 10px;
       transition: 0.2s;
-      font-size: 21px;
+      font-size: 16px;
     }
     #purposeNext a:hover{
       border-bottom: 4px solid #112442;
@@ -291,7 +297,7 @@ iframe {
       text-decoration: none;
       padding: 0px 15px 10px;
       transition: 0.2s;
-      font-size: 20px;
+      font-size: 16px;
     }
     #processNext a:hover{
       border-bottom: 4px solid #112442;
@@ -344,7 +350,7 @@ iframe {
     text-decoration: none;
     padding: 0px 15px 10px;
     transition: 0.2s;
-    font-size: 20px;
+    font-size: 16px;
   }
   #textNext a:hover{
     border-bottom: 4px solid #112442;
