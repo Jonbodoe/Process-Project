@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/oqb8pov.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jkp7ucx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Writers Block / 2016 Photos</title>
+</head>
+
+<body>
+    <nav id="nav-bar" class="no-media">
+        <div class="logo">Jonski //</div>
+        <a class="nav-item" href="index.html#home-body">Home</a>
+        <a class="nav-item" href="index.html#about-body">About</a>
+        <a class="nav-item" href="photo.html">Archive</a>
+        <img id="icon" src="img/hamburger.png" alt="icon menu for navigation bar"/>
+    </nav>
+    <div id="photo-window">
+        <div id="fixed-container">
+            <div id="search-section">
+                <h1 id="photo-title">Archive Photos</h1>
+                <p id="photo-text">
+                    All these photos were taken in 2016 on my phone. 
+                    This is used more as a documentation of wall writings 
+                    than visual compositions or interpretations. 
+                </p>
+                <form id="search-select">
+                    <label for="month-search">Month</label>
+                    <select name="changeMonth" id="month-search">
+                        <option value="" disabled="disabled" selected="selected">--Choose--</option>
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                        <option value="May">May</option>
+                        <option value="Jun">June</option>
+                        <option value="Jul">July</option>
+                        <option value="Aug">August</option>
+                        <option value="Sep">September</option>
+                        <option value="Oct">October</option>
+                        <option value="Nov">November</option>
+                        <option value="Dec">Decemeber</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+            <div id="results">
+                <img src="img/ganetexas.jpg" alt="photo of an abandon building" />
+            </div>
+    </div>
+    <script src="js/navbar.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/photoajax.js"></script>
+</body>
+
+</html>
