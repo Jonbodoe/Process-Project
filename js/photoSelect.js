@@ -1,49 +1,22 @@
-// 'use strict'
-// The functions to grab the photos from a external file.
+'use strict'
 $(document).ready(function () {
     
     let option = $('option');
-    option.on('click', getDataAjax)
-    function getDataAjax(e) {
+    option.on('click', getPhotos)
+    function getPhotos(e) {
         console.log('hello2')
         let selectMonth = e.target.value;
         for (let img of photo) {
             // photo is the array
-            // console.log(img.month);
             let dataMonth = img.month;
             if (selectMonth === dataMonth) {
                 let displayPhotos = img.image;
                 let displayAbout = img.about;
                 let photoObject = { photo: displayPhotos, about: displayAbout, month: dataMonth }
                 $('#results').prepend(photoObject.photo, photoObject.about);
-                // Create a function for Fade in Content;
             }
 
         }
-
-    // console.log(selectMonth)
-    // let request = $.ajax({
-    //     method: 'GET',
-    //     url: 'js/photoDisplay16.json',
-    //     dataType: 'json',
-    // });
-    // request.done(function (data) {
-    //     $('#results').empty()
-    //     for (let photo of data) {
-    //         let ajaxMonth = photo.month;
-    //         if (selectMonth === ajaxMonth) {
-    //             let displayPhotos = photo.image;
-    //                 let displayAbout = photo.about;
-    //                 let photoObject = { photo: displayPhotos, about: displayAbout, month: ajaxMonth }
-    //                 $('#results').prepend(photoObject.photo, photoObject.about);
-    //                 // Create a function for Fade in Content;
-    //         }
-    //     }
-
-    // })
-    // request.fail(function (response) {
-    //     console.log('ERROR:' + response.statusText);
-    // });
 }
 let photo = [
 
