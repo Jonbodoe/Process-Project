@@ -21,7 +21,7 @@ $(document).ready(function () {
 let photo = [
 
     {
-        "image": "<img src='photos/Jan5.jpg'>",
+        "image": "<img src='../photos/Jan5.jpg'>",
         "year": "2016",
         "month": "Jan",
         "type": "tag",
@@ -29,7 +29,7 @@ let photo = [
         "location": "Septa"
     },
     {
-        "image": "<img src='photos/Jan9.jpg'>",
+        "image": "<img src='../photos/Jan9.jpg'>",
         "year": "2016",
         "month": "Jan",
         "type": "piece",
@@ -37,7 +37,7 @@ let photo = [
         "location": "North Philadelphia"
     },
     {
-        "image": "<img src='photos/Jan7.jpg'>",
+        "image": "<img src='../photos/Jan7.jpg'>",
         "year": "2016",
         "month": "Jan",
         "type": "piece",
